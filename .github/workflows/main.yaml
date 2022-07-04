@@ -2,10 +2,10 @@ name: CI/CD
 
 on:
   push:
-    branches: [main]
+    branches: [polash]
     paths-ignore: ['**/README.md']
   pull_request:
-    branches: [main]
+    branches: [polash]
     types: [opened, synchronize]
     paths-ignore: ['**/README.md']
 
